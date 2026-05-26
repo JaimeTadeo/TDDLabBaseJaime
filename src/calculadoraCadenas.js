@@ -10,12 +10,11 @@ function calculadoraCadenas(cadena) {
     const finConfiguracion = cadena.lastIndexOf("]");
     const delimitadoresConfig = cadena.substring(2, finConfiguracion + 1);
     
-    // Extraemos todos los delimitadores entre corchetes usando RegExp
     const matches = delimitadoresConfig.match(/\[(.*?)\]/g);
     if (matches) {
       matches.forEach(match => {
         const delimitadorLimpio = match.slice(1, -1);
-        const delimitadorEscapado = delimitadorLimpio.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        const delimitadorEscapado = delimitadorLimpio.replace(/[.*+?^${}()|[\]\\]/g, String.raw`\$&`);
         regexString += "|" + delimitadorEscapado;
       });
     }
@@ -29,7 +28,7 @@ function calculadoraCadenas(cadena) {
   let suma = 0;
   for (let num of numeros) {
     if (num.trim() !== "") {
-      const valorEntero = parseInt(num, 10);
+      const valorEntero = Number.parseInt(num, 10);
       if (valorEntero <= 1000) {
         suma += valorEntero;
       }

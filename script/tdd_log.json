@@ -162,9 +162,31 @@
     "testId": 7
   },
   {
-    "commitId": "HEAD",
+    "commitId": "96518bcd54d67b0f928aea37cc0665cb244cadc8",
     "commitName": "test:acceptar delimitesrs extras",
     "commitTimestamp": 1779814924575,
     "testId": 7
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779814956261,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779815157419,
+    "success": true,
+    "testId": 8
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "refact:cambios para evitar errores en el regex",
+    "commitTimestamp": 1779815204047,
+    "testId": 8
   }
 ]
