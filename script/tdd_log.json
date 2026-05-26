@@ -148,9 +148,23 @@
     "testId": 6
   },
   {
-    "commitId": "HEAD",
+    "commitId": "1ffa16f32223665dcbdf013a7295633f75f956e8",
     "commitName": "test:ignorar num mayores a 1000",
     "commitTimestamp": 1779814619475,
     "testId": 6
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779814760827,
+    "success": true,
+    "testId": 7
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:acceptar delimitesrs extras",
+    "commitTimestamp": 1779814924575,
+    "testId": 7
   }
 ]

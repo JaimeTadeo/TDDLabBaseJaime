@@ -8,10 +8,17 @@ function calculadoraCadenas(cadena) {
 
   if (cadena.startsWith("//[")) {
     const finConfiguracion = cadena.lastIndexOf("]");
-    const delimitador = cadena.substring(3, finConfiguracion);
+    const delimitadoresConfig = cadena.substring(2, finConfiguracion + 1);
     
-    const delimitadorEscapado = delimitador.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    regexString += "|" + delimitadorEscapado;
+    // Extraemos todos los delimitadores entre corchetes usando RegExp
+    const matches = delimitadoresConfig.match(/\[(.*?)\]/g);
+    if (matches) {
+      matches.forEach(match => {
+        const delimitadorLimpio = match.slice(1, -1);
+        const delimitadorEscapado = delimitadorLimpio.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        regexString += "|" + delimitadorEscapado;
+      });
+    }
     
     secuenciaNumeros = cadena.substring(finConfiguracion + 1).trim();
   }
