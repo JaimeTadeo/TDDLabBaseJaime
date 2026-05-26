@@ -1,0 +1,21 @@
+[
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T16:37:46.000Z",
+      "message": "test:cadena vacia",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 14,
+      "additions": 14,
+      "deletions": 0,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  }
+]
