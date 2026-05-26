@@ -82,9 +82,31 @@
     "testId": 3
   },
   {
-    "commitId": "HEAD",
+    "commitId": "524bfc552916daeb0625b51d454138ce00736b78",
     "commitName": "test:deberia retornar la suma de varios numeros por coma",
     "commitTimestamp": 1779814102190,
     "testId": 3
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779814139839,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "numPassedTests": 6,
+    "failedTests": 0,
+    "numTotalTests": 6,
+    "timestamp": 1779814157590,
+    "success": true,
+    "testId": 4
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:admitido - igual a als comas",
+    "commitTimestamp": 1779814183920,
+    "testId": 4
   }
 ]

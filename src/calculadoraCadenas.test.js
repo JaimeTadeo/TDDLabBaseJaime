@@ -16,5 +16,8 @@ describe("Calculadora de Cadenas", () => {
   it("deberia retornar la suma de varios numeros separados por coma", () => {
     expect(calculadoraCadenas("1,2,3")).toEqual(6);
   });
-});
 
+  it("deberia admitir el caracter guion (-) como separador ademas de las comas", () => {
+    expect(calculadoraCadenas("1-2,3")).toEqual(6);
+  });
+});
