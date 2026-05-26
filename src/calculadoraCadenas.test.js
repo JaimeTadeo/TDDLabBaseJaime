@@ -20,4 +20,12 @@ describe("Calculadora de Cadenas", () => {
   it("deberia admitir el caracter guion (-) como separador ademas de las comas", () => {
     expect(calculadoraCadenas("1-2,3")).toEqual(6);
   });
+
+  it("deberia aceptar un delimitador personalizado de un caracter", () => {
+    expect(calculadoraCadenas("//[;] 6;7;4")).toEqual(17);
+  });
+
+  it("deberia combinar delimitador personalizado con los por defecto (, y -)", () => {
+    expect(calculadoraCadenas("//[;] 6,3-2;1")).toEqual(12);
+  });
 });

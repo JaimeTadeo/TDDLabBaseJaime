@@ -104,9 +104,31 @@
     "testId": 4
   },
   {
-    "commitId": "HEAD",
+    "commitId": "37fe7a7483d269fe9e28f9380c60378aea874e92",
     "commitName": "test:admitido - igual a als comas",
     "commitTimestamp": 1779814183920,
     "testId": 4
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779814285676,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "numPassedTests": 8,
+    "failedTests": 0,
+    "numTotalTests": 8,
+    "timestamp": 1779814351908,
+    "success": true,
+    "testId": 5
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:agregado caso de delimiters especiales",
+    "commitTimestamp": 1779814384022,
+    "testId": 5
   }
 ]
