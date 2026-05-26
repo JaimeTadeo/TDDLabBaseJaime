@@ -28,4 +28,8 @@ describe("Calculadora de Cadenas", () => {
   it("deberia combinar delimitador personalizado con los por defecto (, y -)", () => {
     expect(calculadoraCadenas("//[;] 6,3-2;1")).toEqual(12);
   });
+
+  it("deberia ignorar numeros mayores a 1000", () => {
+    expect(calculadoraCadenas("2, 1001")).toEqual(2);
+  });
 });

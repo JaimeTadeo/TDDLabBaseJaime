@@ -10,11 +10,9 @@ function calculadoraCadenas(cadena) {
     const finConfiguracion = cadena.lastIndexOf("]");
     const delimitador = cadena.substring(3, finConfiguracion);
     
-    // Escapar el delimitador por si tiene caracteres especiales de Regex
     const delimitadorEscapado = delimitador.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
     regexString += "|" + delimitadorEscapado;
     
-    // Obtener la secuencia después de la configuración y limpiar espacios en blanco (por ej: "//[;] 6..." tiene un espacio)
     secuenciaNumeros = cadena.substring(finConfiguracion + 1).trim();
   }
 
@@ -24,7 +22,10 @@ function calculadoraCadenas(cadena) {
   let suma = 0;
   for (let num of numeros) {
     if (num.trim() !== "") {
-      suma += parseInt(num, 10);
+      const valorEntero = parseInt(num, 10);
+      if (valorEntero <= 1000) {
+        suma += valorEntero;
+      }
     }
   }
   return suma;

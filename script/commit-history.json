@@ -95,12 +95,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "3d58442ae7171193d7e168d52fc828770c56d477",
     "author": "JaimeTadeo",
     "commit": {
       "date": "2026-05-26T16:53:03.000Z",
       "message": "test:agregado caso de delimiters especiales",
-      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/3d58442ae7171193d7e168d52fc828770c56d477"
     },
     "stats": {
       "total": 32,
@@ -110,6 +110,25 @@
     },
     "coverage": 100,
     "test_count": 8,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T16:56:58.000Z",
+      "message": "test:ignorar num mayores a 1000",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 8,
+      "deletions": 3,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 9,
     "failed_tests": 0,
     "conclusion": "success"
   }

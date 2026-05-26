@@ -126,9 +126,31 @@
     "testId": 5
   },
   {
-    "commitId": "HEAD",
+    "commitId": "3d58442ae7171193d7e168d52fc828770c56d477",
     "commitName": "test:agregado caso de delimiters especiales",
     "commitTimestamp": 1779814384022,
     "testId": 5
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779814527855,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "numPassedTests": 9,
+    "failedTests": 0,
+    "numTotalTests": 9,
+    "timestamp": 1779814587238,
+    "success": true,
+    "testId": 6
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:ignorar num mayores a 1000",
+    "commitTimestamp": 1779814619475,
+    "testId": 6
   }
 ]
