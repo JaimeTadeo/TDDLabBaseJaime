@@ -60,9 +60,31 @@
     "testId": 2
   },
   {
-    "commitId": "HEAD",
+    "commitId": "fdb620baefb46f7f457e26ea573d6dd4e8849852",
     "commitName": "test:retorno 2 numeros por comas",
     "commitTimestamp": 1779813933339,
     "testId": 2
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779814059333,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "numPassedTests": 5,
+    "failedTests": 0,
+    "numTotalTests": 5,
+    "timestamp": 1779814065131,
+    "success": true,
+    "testId": 3
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:deberia retornar la suma de varios numeros por coma",
+    "commitTimestamp": 1779814102190,
+    "testId": 3
   }
 ]

@@ -38,12 +38,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "fdb620baefb46f7f457e26ea573d6dd4e8849852",
     "author": "JaimeTadeo",
     "commit": {
       "date": "2026-05-26T16:45:31.000Z",
       "message": "test:retorno 2 numeros por comas",
-      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/fdb620baefb46f7f457e26ea573d6dd4e8849852"
     },
     "stats": {
       "total": 11,
@@ -53,6 +53,25 @@
     },
     "coverage": 100,
     "test_count": 4,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T16:48:20.000Z",
+      "message": "test:deberia retornar la suma de varios numeros por coma",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 4,
+      "additions": 4,
+      "deletions": 0,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 5,
     "failed_tests": 0,
     "conclusion": "success"
   }
