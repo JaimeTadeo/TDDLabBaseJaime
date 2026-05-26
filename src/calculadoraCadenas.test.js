@@ -8,5 +8,9 @@ describe("Calculadora de Cadenas", () => {
   it("deberia retornar el mismo numero para un solo numero", () => {
     expect(calculadoraCadenas("2")).toEqual(2);
   });
+
+  it("deberia retornar la suma de dos numeros separados por coma", () => {
+    expect(calculadoraCadenas("1,2")).toEqual(3);
+  });
 });
 

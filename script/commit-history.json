@@ -19,12 +19,12 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "408c91baa5be40ccf8028c8f3bbd80006ab5ea96",
     "author": "JaimeTadeo",
     "commit": {
       "date": "2026-05-26T16:42:47.000Z",
       "message": "test:retorno mismo numero para el mismo",
-      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/408c91baa5be40ccf8028c8f3bbd80006ab5ea96"
     },
     "stats": {
       "total": 9,
@@ -34,6 +34,25 @@
     },
     "coverage": 100,
     "test_count": 3,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T16:45:31.000Z",
+      "message": "test:retorno 2 numeros por comas",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 11,
+      "additions": 10,
+      "deletions": 1,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 4,
     "failed_tests": 0,
     "conclusion": "success"
   }

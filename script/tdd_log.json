@@ -38,9 +38,31 @@
     "testId": 1
   },
   {
-    "commitId": "HEAD",
+    "commitId": "408c91baa5be40ccf8028c8f3bbd80006ab5ea96",
     "commitName": "test:retorno mismo numero para el mismo",
     "commitTimestamp": 1779813769446,
     "testId": 1
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779813883245,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "numPassedTests": 4,
+    "failedTests": 0,
+    "numTotalTests": 4,
+    "timestamp": 1779813902529,
+    "success": true,
+    "testId": 2
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:retorno 2 numeros por comas",
+    "commitTimestamp": 1779813933339,
+    "testId": 2
   }
 ]
