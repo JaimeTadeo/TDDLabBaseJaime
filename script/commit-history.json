@@ -152,17 +152,36 @@
     "conclusion": "success"
   },
   {
-    "sha": "HEAD",
+    "sha": "6e7fc3cb3ce52bc1c5f2d6c82a4fdb8ecc1ffd54",
     "author": "JaimeTadeo",
     "commit": {
       "date": "2026-05-26T17:06:43.000Z",
       "message": "refact:cambios para evitar errores en el regex",
-      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/6e7fc3cb3ce52bc1c5f2d6c82a4fdb8ecc1ffd54"
     },
     "stats": {
       "total": 5,
       "additions": 2,
       "deletions": 3,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 11,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T17:32:38.000Z",
+      "message": "Refact implementado codigo",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 51,
+      "additions": 27,
+      "deletions": 24,
       "date": "2026-05-26"
     },
     "coverage": 100,

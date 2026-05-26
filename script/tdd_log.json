@@ -184,9 +184,23 @@
     "testId": 8
   },
   {
-    "commitId": "HEAD",
+    "commitId": "6e7fc3cb3ce52bc1c5f2d6c82a4fdb8ecc1ffd54",
     "commitName": "refact:cambios para evitar errores en el regex",
     "commitTimestamp": 1779815204047,
     "testId": 8
+  },
+  {
+    "numPassedTests": 11,
+    "failedTests": 0,
+    "numTotalTests": 11,
+    "timestamp": 1779816708560,
+    "success": true,
+    "testId": 9
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "Refact implementado codigo",
+    "commitTimestamp": 1779816759513,
+    "testId": 9
   }
 ]
