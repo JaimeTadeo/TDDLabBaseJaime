@@ -16,9 +16,31 @@
     "testId": 0
   },
   {
-    "commitId": "HEAD",
+    "commitId": "f321f2bbc2263bebc9a64921ce9ced5e63585a31",
     "commitName": "test:cadena vacia",
     "commitTimestamp": 1779813468177,
     "testId": 0
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779813695154,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "numPassedTests": 3,
+    "failedTests": 0,
+    "numTotalTests": 3,
+    "timestamp": 1779813717107,
+    "success": true,
+    "testId": 1
+  },
+  {
+    "commitId": "HEAD",
+    "commitName": "test:retorno mismo numero para el mismo",
+    "commitTimestamp": 1779813769446,
+    "testId": 1
   }
 ]

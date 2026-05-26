@@ -1,11 +1,11 @@
 [
   {
-    "sha": "HEAD",
+    "sha": "f321f2bbc2263bebc9a64921ce9ced5e63585a31",
     "author": "JaimeTadeo",
     "commit": {
       "date": "2026-05-26T16:37:46.000Z",
       "message": "test:cadena vacia",
-      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/f321f2bbc2263bebc9a64921ce9ced5e63585a31"
     },
     "stats": {
       "total": 14,
@@ -15,6 +15,25 @@
     },
     "coverage": 100,
     "test_count": 2,
+    "failed_tests": 0,
+    "conclusion": "success"
+  },
+  {
+    "sha": "HEAD",
+    "author": "JaimeTadeo",
+    "commit": {
+      "date": "2026-05-26T16:42:47.000Z",
+      "message": "test:retorno mismo numero para el mismo",
+      "url": "https://github.com/JaimeTadeo/TDDLabBaseJaime/commit/HEAD"
+    },
+    "stats": {
+      "total": 9,
+      "additions": 8,
+      "deletions": 1,
+      "date": "2026-05-26"
+    },
+    "coverage": 100,
+    "test_count": 3,
     "failed_tests": 0,
     "conclusion": "success"
   }
